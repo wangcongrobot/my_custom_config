@@ -22,7 +22,7 @@ export clashdir="/home/sia/.local/share/clash"
 
 # ROS
 source /opt/ros/melodic/setup.bash
-alias ros_source="./devel/setup.bash; rospack profile"
+alias ros_source="source ./devel/setup.bash; rospack profile"
 
 # orbslam
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/sia/workspace/bluerov_ws/src/DVL_ORB3/Examples/ROS/DVL_ORB3
